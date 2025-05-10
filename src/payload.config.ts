@@ -37,4 +37,6 @@ export default buildConfig({
     payloadCloudPlugin(),
     // storage-adapter-placeholder
   ],
+  cors: ['http://localhost:5173', 'https://milestone-lilac-six.vercel.app'],
+  csrf: ['http://localhost:5173', 'https://milestone-lilac-six.vercel.app'],
 })
