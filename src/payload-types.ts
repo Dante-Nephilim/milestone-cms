@@ -70,7 +70,7 @@ export interface Config {
     users: User;
     media: Media;
     'learning-support': LearningSupport;
-    testimonials: Testimonial;
+    'testimonials': Testimonial;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
@@ -80,7 +80,7 @@ export interface Config {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     'learning-support': LearningSupportSelect<false> | LearningSupportSelect<true>;
-    testimonials: TestimonialsSelect<false> | TestimonialsSelect<true>;
+    'testimonials': TestimonialsSelect<false> | TestimonialsSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
